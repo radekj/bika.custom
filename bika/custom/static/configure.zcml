@@ -1,0 +1,27 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="bika.custom">
+
+  <!-- Zope 3 browser resources -->
+
+  <browser:resourceDirectory
+      name="bika.custom.images"
+      directory="images"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
+  <browser:resourceDirectory
+      name="bika.custom.css"
+      directory="css"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
+  <browser:resourceDirectory
+      name="bika.custom.js"
+      directory="js"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
+
+</configure>
