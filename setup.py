@@ -6,8 +6,7 @@ version = '1.0'
 setup(name='bika.custom',
       version=version,
       description="Starting point for creating Bika LIMS extension packages",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.md").read(),
       # Get more strings from
       # http://pypi.python.org/pypi?:action=list_classifiers
       classifiers=[
