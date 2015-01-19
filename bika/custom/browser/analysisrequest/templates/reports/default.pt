@@ -1,18 +1,11 @@
 <!--
-    Default Analysis Request results template for Bika LIMS
 
-    All data is available using the analysisrequest dictionary.
-    Example for accessing and displaying data:
+    This file is copied directly from a bika.lims release.  You should probably
+    grab the latest file from there, as this out may not be up-to-date.
 
-    <p tal:content="python:analysisrequest['laboratory']['title']"></p>
+    The latest version of this file is always available at:
 
-    or
-
-    <p tal:content="analysisrequest/laboratory/title"></p>
-
-    Take a look to the documentation for more information about
-    available data and fields.
-    https://github.com/bikalabs/Bika-LIMS/wiki/Creating-new-report-templates
+    https://github.com/bikalabs/Bika-LIMS/tree/master/bika/lims/browser/analysisrequest/templates/reports
 
 -->
 <tal:report tal:define="analysisrequest python:view.getAnalysisRequest();
