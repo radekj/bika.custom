@@ -13,6 +13,9 @@ var _s = window.jarn.i18n.MessageFactory("bika.custom");
  */
 window.bika.custom.controllers =  {
 
+    ".template-ar_add #analysisrequest_edit_form":
+        ['CustomAnalysisRequestAddView', ]
+
 };
 
 /**
