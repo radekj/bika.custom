@@ -9,4 +9,12 @@
 
     <include package=".analysisrequest"/>
 
+    <!-- This registration allows additional sticker templates. -->
+    <plone:static
+       directory="stickers"
+       type="stickers"
+       name="custom"
+     />
+
+
 </configure>
