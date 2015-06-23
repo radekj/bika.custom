@@ -9,7 +9,11 @@
 
     <include package=".analysisrequest"/>
 
-    <!-- This registration allows additional sticker templates. -->
+    <!-- This registration allows additional sticker templates.
+         To enable these, just copy one or more of the *.pt files
+         from bika.lims/bika/lims/browser/templates/stickers
+         into the ./stickers folder, and edit it.
+    -->
     <plone:static
        directory="stickers"
        type="stickers"
