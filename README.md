@@ -30,5 +30,7 @@ readme can be found here: https://pypi.python.org/pypi/archetypes.schemaextender
 Questions?
 ==========
 
-Join the bika-developers mailing list, or visit #bika on irc.freenode.net.
+There are a lot of moving parts, and most of them are not well documented in this package.
+Join the bika-developers mailing list, or visit #bika on irc.freenode.net if something
+is missing, and we can work on it and maybe document it together.
 
