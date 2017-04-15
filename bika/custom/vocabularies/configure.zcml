@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="bika.custom">
+
+  <utility
+    name="client.certificates"
+    provides="zope.schema.interfaces.IVocabularyFactory"
+    factory=".vocabularies.ClientCertificatesVocabularyFactory"
+    />
+
+</configure>

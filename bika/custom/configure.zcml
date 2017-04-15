@@ -23,6 +23,7 @@
   <include package=".reports"/>
   <include package=".static"/>
   <include package=".setupdata"/>
+  <include package=".vocabularies"/>
 
   <include file="profiles.zcml" />
 

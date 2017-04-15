@@ -1,13 +1,18 @@
 from AccessControl import ClassSecurityInfo
 from zope.interface import implements
 from Products.Archetypes import atapi
-# from Products.Archetypes.public import *
+from plone.indexer import indexer
 
 from bika.lims.content.bikaschema import BikaSchema
 from bika.lims import bikaMessageFactory as _
 
 from bika.custom.config import PROJECTNAME
 from bika.custom.interfaces import ICertificate
+
+
+@indexer(ICertificate)
+def isActive(instance):
+    return instance.isActive()
 
 
 schema = BikaSchema.copy() + atapi.Schema((
@@ -25,7 +30,7 @@ schema = BikaSchema.copy() + atapi.Schema((
     ),
 
     atapi.BooleanField(
-        'Active',
+        'isActive',
         default=False,
     ),
 ))

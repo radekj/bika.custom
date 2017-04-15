@@ -7,4 +7,14 @@
     xmlns:zcml="http://namespaces.zope.org/zcml"
     i18n_domain="bika.custom">
 
+  <adapter
+    factory=".client_extender.ClientExtender"
+    name="client_extender"
+    />
+
+  <adapter
+    name="certActive"
+    factory=".certificate.isActive"
+    />
+
 </configure>
