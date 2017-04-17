@@ -1,0 +1,1 @@
+<img id="xyz-logo" tal:attributes="src string:${view/site_url}/++resource++bika.custom.images/xyz-logo.png" />

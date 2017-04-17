@@ -24,4 +24,15 @@
               inline="False"
               insert-after="*"/>
 
+  <javascript authenticated="True"
+              id="++resource++bika.custom.js/my_custom.js"
+              cacheable="True"
+              compression="safe"
+              conditionalcomment=""
+              cookable="True"
+              enabled="on"
+              expression=""
+              inline="False"
+              insert-after="*"/>
+
 </object>

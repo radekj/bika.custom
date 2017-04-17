@@ -12,4 +12,14 @@
         permission="zope2.View"
         />
 
+    <browser:viewlet
+        name="plone.logo"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.LogoViewlet"
+        template="logo.pt"
+        for="*"
+        layer="bika.lims.interfaces.IBikaLIMS"
+        permission="zope2.View"
+        />
+
 </configure>
