@@ -24,6 +24,7 @@
   <include package=".static"/>
   <include package=".setupdata"/>
   <include package=".vocabularies"/>
+  <include package=".patches"/>
 
   <include file="profiles.zcml" />
 
