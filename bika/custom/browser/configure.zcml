@@ -10,6 +10,7 @@
 
     <include package=".analysisrequest"/>
     <include package=".doctors"/>
+    <include package=".certificates"/>
 
     <!-- This registration allows additional sticker templates.
          To enable these, just copy one or more of the *.pt files
