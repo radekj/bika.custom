@@ -6,5 +6,6 @@
 
     <include file="browser/analysisrequest/overrides.zcml" />
     <include file="browser/dashboard/overrides.zcml" />
+    <include file="browser/viewlets/overrides.zcml" />
 
 </configure>
