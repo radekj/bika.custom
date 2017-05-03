@@ -22,5 +22,12 @@
        name="custom"
      />
 
+    <browser:page
+      for="bika.custom.interfaces.IBikaCustomFolder"
+      name="base_view"
+      class="bika.custom.browser.bika_custom_folder_view.BikaCustomFolderView"
+      permission="cmf.ListFolderContents"
+      layer="bika.lims.interfaces.IBikaLIMS"
+      />
 
 </configure>
